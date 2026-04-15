@@ -1,5 +1,5 @@
-import { content, type Locale } from "../../../lib/content";
 
+import { content, type Locale } from "../../../lib/content";
 export default async function SolutionsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = content[(locale as Locale) || "en"] ?? content.en;
@@ -9,9 +9,7 @@ export default async function SolutionsPage({ params }: { params: Promise<{ loca
       <section className="section">
         <div className="grid-3">
           {t.solutions.map(([title,text]) => (
-            <div className="card" key={title}>
-              <span className="card-kicker">Use case</span><h3>{title}</h3><p>{text}</p>
-            </div>
+            <div className="card" key={title}><span className="card-kicker">Use case</span><h3>{title}</h3><p>{text}</p></div>
           ))}
         </div>
       </section>

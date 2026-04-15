@@ -1,5 +1,5 @@
-import { content, type Locale } from "../../../lib/content";
 
+import { content, type Locale } from "../../../lib/content";
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = content[(locale as Locale) || "en"] ?? content.en;

@@ -1,3 +1,4 @@
+
 export type Locale = "es" | "en" | "fr";
 export const content = {
   es: {
@@ -33,7 +34,7 @@ export const content = {
     pills: ["BI dashboards", "ETL & automation", "Commercial analysis", "Strategic support"],
     metric1: "Business visibility", metric2: "What clients ask for most", metric3: "Core promise", metric3text: "Less manual work. More clarity. Better decisions.",
     sectionTitle: "What we do", sectionSub: "We work across the full chain: data structure, source connectivity, visualization, analytics and continuous support.",
-    capabilities: [["Infrastructure","We design the business data foundation: sources, structures, KPI logic and reporting architecture."],["Automation","We connect systems, reduce manual work and build reliable ETL workflows."],["Visualization","We create dashboards that make business performance visible, useful and actionable."],["Decision support","We translate information into business recommendations, not just charts."],["Analytics","We identify trends, friction points and hidden opportunities in the data."],["Ongoing operation","We provide support, monitoring, new-user setup and post-launch improvements."]],
+    capabilities: [["Infrastructure","We design the business data foundation: sources, structures, KPI logic and reporting architecture."],["Automation","We connect systems, reduce manual work and build reliable ETL workflows."],["Visualization","We create dashboards that make business performance visible, useful and actionable."],["Analytics","We identify trends, friction points and hidden opportunities in the data."],["Decision support","We translate information into business recommendations, not just charts."],["Ongoing operation","We provide support, monitoring, new-user setup and post-launch improvements."]],
     statementTitle: "Built for companies that need more than dashboards.",
     statementText: "Our work combines data structure, automation, visibility and business interpretation. The goal is not to produce more charts. The goal is to help teams understand what is happening and what to do next.",
     statementCards: [["For commercial teams","Sales dashboards, KPI tracking, supplier views and visibility by channel, client or category."],["For operations","Automated reporting, process monitoring and less dependence on manual spreadsheets."],["For leadership","Better visibility, better reporting and analytical context to support strategic decisions."]],

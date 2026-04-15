@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import { content, type Locale } from "../../lib/content";
@@ -11,7 +12,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <header className="site-header">
         <div className="container nav-wrap">
           <Link href={`/${locale}`}>
-            <Image src="/brand/prime-metric-logo-horizontal.png" alt="Prime-Metric logo" width={300} height={75} className="brand-logo" priority />
+            <Image src="/brand/prime-metric-logo-horizontal.png" alt="Prime-Metric logo" width={300} height={57} className="brand-logo" priority />
           </Link>
           <nav className="main-nav">
             <Link href={`/${locale}`}>{t.nav.home}</Link>
@@ -30,7 +31,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <Image src="/brand/prime-metric-logo-horizontal.png" alt="Prime-Metric logo" width={260} height={65} className="footer-brand-logo" />
+            <Image src="/brand/prime-metric-logo-horizontal.png" alt="Prime-Metric logo" width={220} height={42} className="footer-brand-logo" />
             <p className="footer-copy">{t.lead}</p>
           </div>
           <div>
